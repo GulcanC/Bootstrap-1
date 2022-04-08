@@ -38,5 +38,6 @@ These three sections have a header section that contain a title, a paragraph and
 
 **- Footer Section**
 
+In the footer we have a contact button; when we click this button, a modal will be opened. Here we use **data-toggle**, **data-target** class names. We have to add the content of this modal outside of the footer. Here we add a close button to close the modal. for this reason we use **class="close"** and **data-dismiss="modal"**
 
 
