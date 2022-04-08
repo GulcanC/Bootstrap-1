@@ -34,5 +34,5 @@ For form we use **card-form, form-group, form-control** class names.
 
 **Explore, Create and Share Sections** 
 
-
+These three sections have a header section that contain a title, a paragraph and a button. Under the header section they have a container that includes 6 columns div **col-md-6** for medium screens. 
 
