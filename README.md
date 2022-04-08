@@ -19,9 +19,16 @@ This project is a fully responsive social media type site. We have a fixed navba
 
 We add a navigation menu to the navigation bar using an unordered list of clickable list items with different "IDs". We use a button for the navigation menu so that the navigation menu is properly displayed on the small screen.
 
-     :detail:   <button
+       <button
           class="navbar-toggler"
           data-toggle="collapse"
           data-target="#navbarCollapse" >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+**HOME SECTION** 
+
+At the show case area we use flex box to align the texts and the icons. **d-flex** is used for the parent elements and it automatically aligns items horizantally. **align-self-start** and **align-self-end** are used for the child elements to individually change their alignment on the cross axis. For the texts we use **col-lg-8** class name for large screens, while for small screens we use **d-none** which means we do not want the texts are dipslayed in small screens. For this sectionwe use dark overlay its **position absolute** that means we want it basically covers the entire home section. 
+
+For form we use **card-form, form-group, form-control** class names. 
+
